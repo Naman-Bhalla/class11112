@@ -2,7 +2,7 @@ package creational2.problem3;
 
 public class Client {
     public static void main(String[] args) {
-        TaxCalculatorFactory taxCalculatorFactory = new TaxCalculatorFactory();
+        TaxCalculatorFactory taxCalculatorFactory = new IndiaTaxCalculatorFactory();
 
         Employee a = new FTEmployee();
         a.setSalary(100);
